@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia usuario, nome_produto[100]
+		inteiro itens, quantidade[100], opcao
+		real valor[100], total = 0.0, recebido
+		inteiro i
+		caracter tem_produto = 's'
+
+		escreva("\n Bem Vindo a mercearia Compre Mais \n")
+		escreva("Digite seu usuario:")
+		leia(usuario)
+
+		escreva("\n Selecione o tipo de caixa:")
+		escreva("1: Caixa Rapido (Ate 15 itens) \n")
+		escreva("2: Caixa Convencional (Caixa Ilimitado) \n")
+		leia(opcao)
+		
+		escolha(opcao)
