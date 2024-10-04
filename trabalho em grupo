@@ -100,40 +100,4 @@ programa
 		total = total * 0.12
 		escreva("TOTAL DA COMPRA: " + total)
 	}
-
-	funcao credito()
-	{
-		total = 0.0
-		escreva("Valor recebido (credito): \n")
-		leia(recebido)
-		total = quantidade[i] * valor[i]
-		total = total - recebido 
-		total = total * 0.12
-		escreva("TOTAL DA COMPRA: " + total)
-	}
-
-	funcao credito_parcelado()
-	{
-		escolha(opcao)
-		{
-			caso 1:
-			{
-				total = 0.0
-				leia(recebido)
-				total = quantidade[i] * valor[i]
-				total = total - recebido
-				total = total / 4 
-				escreva("TOTAL DA COMPRA: " + total)
-			}
-			caso 2:
-			{
-				total = 0.0
-				leia(recebido)
-				total = quantidade[i] * valor[i]
-				total = total - recebido
-				total = total / 4 
-				escreva("TOTAL DA COMPRA: " + total)
-			}
-		}
-	}
 }
